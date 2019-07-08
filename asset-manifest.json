@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/letsWork/static/css/main.163ba624.chunk.css",
-    "main.js": "/letsWork/static/js/main.4b577759.chunk.js",
-    "main.js.map": "/letsWork/static/js/main.4b577759.chunk.js.map",
+    "main.css": "/letsWork/static/css/main.641fb419.chunk.css",
+    "main.js": "/letsWork/static/js/main.b2cb7f9d.chunk.js",
+    "main.js.map": "/letsWork/static/js/main.b2cb7f9d.chunk.js.map",
     "runtime~main.js": "/letsWork/static/js/runtime~main.6ec0cf19.js",
     "runtime~main.js.map": "/letsWork/static/js/runtime~main.6ec0cf19.js.map",
     "static/css/2.0624914a.chunk.css": "/letsWork/static/css/2.0624914a.chunk.css",
-    "static/js/2.7758ab43.chunk.js": "/letsWork/static/js/2.7758ab43.chunk.js",
-    "static/js/2.7758ab43.chunk.js.map": "/letsWork/static/js/2.7758ab43.chunk.js.map",
+    "static/js/2.0753033e.chunk.js": "/letsWork/static/js/2.0753033e.chunk.js",
+    "static/js/2.0753033e.chunk.js.map": "/letsWork/static/js/2.0753033e.chunk.js.map",
     "index.html": "/letsWork/index.html",
-    "precache-manifest.e5ec77a4975be89fcede026d6f5411e0.js": "/letsWork/precache-manifest.e5ec77a4975be89fcede026d6f5411e0.js",
+    "precache-manifest.fb6f87b0c8d3d2b3cdf2772b81a6b9a9.js": "/letsWork/precache-manifest.fb6f87b0c8d3d2b3cdf2772b81a6b9a9.js",
     "service-worker.js": "/letsWork/service-worker.js",
     "static/css/2.0624914a.chunk.css.map": "/letsWork/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.163ba624.chunk.css.map": "/letsWork/static/css/main.163ba624.chunk.css.map"
+    "static/css/main.641fb419.chunk.css.map": "/letsWork/static/css/main.641fb419.chunk.css.map"
   }
 }
