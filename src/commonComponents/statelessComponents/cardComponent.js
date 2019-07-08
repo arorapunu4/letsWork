@@ -23,7 +23,6 @@ export function BalanceCards(props) {
             </span>
           </span>
         </span>
-        {/* <h1>{this.props.accountData.account_data.availableBalance}</h1> */}
 
         <h1 className={"large-text"}>
           {"$" +

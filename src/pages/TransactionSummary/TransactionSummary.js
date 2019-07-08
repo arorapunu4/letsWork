@@ -9,12 +9,11 @@ import {
   PageHeading,
   CTA
 } from "../../commonComponents/statelessComponents/cardComponent";
+import "./TransactionSummary.css";
 const BalanceCardsConfiguration = [
   {
     heading: "Current Balance",
     balance: 100000,
-    text:
-      "Balance in your donor-advised fund after the previous day’s trading cycle is completed",
     url: "/",
     buttonName: "View account summary",
     comingSoon: false
@@ -22,8 +21,6 @@ const BalanceCardsConfiguration = [
   {
     heading: "Available Balance",
     balance: 20000,
-    text:
-      "Your current balance, minus any pending grants, pending exchanges or assets invested in TIFF",
     url: "",
     buttonName: "View transaction summary",
     comingSoon: true
@@ -43,7 +40,7 @@ class TransactionSummary extends Component {
           <meta
             name="description"
             content="Lets Do India Transaction Summary Page, here we can see all transaction data"
-          />{" "}
+          />
         </Helmet>
 
         <div className="account-summary">
@@ -67,14 +64,18 @@ class TransactionSummary extends Component {
                 {this.props.TransactionData.IsLoading === true ? (
                   <div>
                     <div className="loadingContainer">
-                      <div />
-                      {"loading.."}
+                      <div>
+                      {"loading...."}
+                      </div>
                     </div>
                   </div>
                 ) : (
+                  <>
+                  <h2 className="transaction-heading">{"Transaction Summary Details-"}</h2>
                   <TransactionTable
                     data={this.props.TransactionData.FirstData}
                   />
+                  </>
                 )}
               </Row>
             </div>

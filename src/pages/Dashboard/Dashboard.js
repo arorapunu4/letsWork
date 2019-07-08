@@ -58,6 +58,7 @@ class Dashboard extends Component {
                 <CTA data={"Exchange Activity"}  link={"#"} />
               </Row>
               <Row>
+                <h2 className="marketingFeature-heading">{"Our Users Valuable Feedbacks-"}</h2>
                 <MarketingFeature />
               </Row>
             </div>
