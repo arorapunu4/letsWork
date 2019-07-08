@@ -63,7 +63,7 @@ export function PageHeading(props) {
 }
 export function CTA(props) {
   return  (
-    <Link to={`${process.env.PUBLIC_URL}${props.link}`} >
+    <Link to={`${props.link}`} >
     <div className="Cta">
    
                        

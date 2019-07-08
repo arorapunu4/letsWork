@@ -123,7 +123,7 @@ console.log(this.props.newData,"---header--")
         <div className="menu-bar">
           <div className="main-max-width-container">
             <Navbar expand="lg" light>
-            <Link to={`${process.env.PUBLIC_URL}/`} >
+            <Link to={"/"} >
               <NavbarBrand href="#" tabindex="0">
                 <img
                  src={"/assets/images/vcep_logo.png"}
