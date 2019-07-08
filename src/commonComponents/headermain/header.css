@@ -155,8 +155,7 @@ button:focus {
 
 @media only screen and (max-width: 991px) {
   .menu-bar .navbar-brand img {
-    width: 120px;
-    height: 48px;
+    width: 100px;
   }
   .menu-bar .hide-desktop {
     display: inline-block;
