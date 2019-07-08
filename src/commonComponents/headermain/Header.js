@@ -126,7 +126,7 @@ console.log(this.props.newData,"---header--")
             <Link to={"/"} >
               <NavbarBrand href="#" tabindex="0">
                 <img
-                 src={"/assets/images/vcep_logo.png"}
+                 src={require("../../assets/images/vcep_logo.png")}
                   className="left"
                 />
               </NavbarBrand>
