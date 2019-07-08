@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "327c44fbea1fbcd942f41b85b69b23d4",
+    "revision": "c405bf68f7ad3cdb738df08455dd1856",
     "url": "/letsWork/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/letsWork/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "eaab35f84c1848e9ce36",
-    "url": "/letsWork/static/css/main.8b77ca83.chunk.css"
+    "revision": "48f90a3196df0033f65f",
+    "url": "/letsWork/static/css/main.dd3ce798.chunk.css"
   },
   {
     "revision": "9b1ff2982f30c308b232",
     "url": "/letsWork/static/js/2.60dafe4c.chunk.js"
   },
   {
-    "revision": "eaab35f84c1848e9ce36",
-    "url": "/letsWork/static/js/main.48c0fa6d.chunk.js"
+    "revision": "48f90a3196df0033f65f",
+    "url": "/letsWork/static/js/main.f5645072.chunk.js"
   },
   {
     "revision": "343fa099c035af41fa14",
