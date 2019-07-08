@@ -31,7 +31,7 @@ console.log(this.props.newData,"---header--")
                 <Row>
                   <Col md="5" lg="4" className="left-container">
                     <img
-                      src={"/assets/images/vcep_logo.png"}
+                      src={require("../../assets/images/vcep_logo.png")}
                       className="left"
                     />
                     <Row>

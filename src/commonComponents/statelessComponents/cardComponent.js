@@ -13,7 +13,7 @@ export function BalanceCards(props) {
         <b>Available Balance</b>
         <span className="tool-tip">
           <img
-            src={"/assets/images/info.svg"}
+            src={require("../../assets/images/info.svg")}
             className="mr-icon"
           />
           <span>
