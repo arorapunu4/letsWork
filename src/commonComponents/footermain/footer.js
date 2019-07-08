@@ -32,7 +32,7 @@ console.log(this.props.newData,"---header--")
                   <Col md="5" lg="4" className="left-container">
                     <img
                       src={require("../../assets/images/vcep_logo.png")}
-                      className="left"
+                      className="left" alt="footer page logo"
                     />
                     <Row>
                       <Col>

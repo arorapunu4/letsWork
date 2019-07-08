@@ -15,6 +15,7 @@ export function BalanceCards(props) {
           <img
             src={require("../../assets/images/info.svg")}
             className="mr-icon"
+            alt="balance info icon"
           />
           <span>
             <span class="tooltiptext-i">
@@ -63,7 +64,7 @@ export function PageHeading(props) {
 }
 export function CTA(props) {
   return  (
-    <Link to={`${props.link}`} >
+    <Link to={`${props.link}`} aria-label="link to cta butns"  >
     <div className="Cta">
    
                        

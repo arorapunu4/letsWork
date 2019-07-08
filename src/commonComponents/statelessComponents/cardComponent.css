@@ -72,17 +72,10 @@
   font-stretch: normal;
   line-height: normal;
   letter-spacing: 1.4px;
-  color: #a8b400;
+  color: #006778;
 }
 .current-balance-container .balance-card h1.large-text {
   font-size: 42px;
-}
-.current-balance-container .balance-card h1.small-text {
-  font-size: 28px;
-  line-height: 42px;
-}
-.current-balance-container .balance-card h1.extra-small-text {
-  font-size: 24px;
 }
 .current-balance-container .balance-card p {
   position: absolute;

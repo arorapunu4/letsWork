@@ -123,11 +123,11 @@ console.log(this.props.newData,"---header--")
         <div className="menu-bar">
           <div className="main-max-width-container">
             <Navbar expand="lg" light>
-            <Link to={"/"} >
+            <Link to={"/"} aria-label="link to home page" >
               <NavbarBrand href="#" tabindex="0">
                 <img
                  src={require("../../assets/images/vcep_logo.png")}
-                  className="left"
+                  className="left" alt="home page logo"
                 />
               </NavbarBrand>
               </Link>
