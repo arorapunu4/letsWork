@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/letsWork/static/css/main.d1a8d0e6.chunk.css",
+    "main.css": "/letsWork/static/css/main.2f6a9659.chunk.css",
     "main.js": "/letsWork/static/js/main.d415030e.chunk.js",
     "main.js.map": "/letsWork/static/js/main.d415030e.chunk.js.map",
     "runtime~main.js": "/letsWork/static/js/runtime~main.6ec0cf19.js",
@@ -9,10 +9,10 @@
     "static/js/2.389cfdee.chunk.js": "/letsWork/static/js/2.389cfdee.chunk.js",
     "static/js/2.389cfdee.chunk.js.map": "/letsWork/static/js/2.389cfdee.chunk.js.map",
     "index.html": "/letsWork/index.html",
-    "precache-manifest.6de1ee882838371a19cccee653ca966e.js": "/letsWork/precache-manifest.6de1ee882838371a19cccee653ca966e.js",
+    "precache-manifest.5ee2bade248ef7d0649e98c7a23df61b.js": "/letsWork/precache-manifest.5ee2bade248ef7d0649e98c7a23df61b.js",
     "service-worker.js": "/letsWork/service-worker.js",
     "static/css/2.0624914a.chunk.css.map": "/letsWork/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.d1a8d0e6.chunk.css.map": "/letsWork/static/css/main.d1a8d0e6.chunk.css.map",
+    "static/css/main.2f6a9659.chunk.css.map": "/letsWork/static/css/main.2f6a9659.chunk.css.map",
     "static/media/info.svg": "/letsWork/static/media/info.77c2a17b.svg"
   }
 }
