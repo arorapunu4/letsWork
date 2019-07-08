@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3015164ac358df639708400da851b443",
+    "revision": "99b15008189f018114c370eccb233af5",
     "url": "/letsWork/index.html"
   },
   {
-    "revision": "314be9d912fac3bc12ea",
+    "revision": "eb0bc15389bfb46084d4",
     "url": "/letsWork/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "e6d073a7517a7f58f654",
-    "url": "/letsWork/static/css/main.aff6aac3.chunk.css"
+    "revision": "6aa289079969aabf28e5",
+    "url": "/letsWork/static/css/main.5f84dd8a.chunk.css"
   },
   {
-    "revision": "314be9d912fac3bc12ea",
-    "url": "/letsWork/static/js/2.a2b2f408.chunk.js"
+    "revision": "eb0bc15389bfb46084d4",
+    "url": "/letsWork/static/js/2.5d5b4ef5.chunk.js"
   },
   {
-    "revision": "e6d073a7517a7f58f654",
-    "url": "/letsWork/static/js/main.ea982952.chunk.js"
+    "revision": "6aa289079969aabf28e5",
+    "url": "/letsWork/static/js/main.952a998a.chunk.js"
   },
   {
     "revision": "343fa099c035af41fa14",
