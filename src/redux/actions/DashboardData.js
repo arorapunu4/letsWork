@@ -4,8 +4,8 @@ import api from "./service";
 export const getAllAccountSummaryBalanceData = () => dispatch => {
   dispatch({ type: "GET_LOADING_STATUS" });
   return api
-    .allAccountSummaryBalanceData("https://api.myjson.com/bins/km0lf")
-    .getAllAccountSummaryBalanceData("data")
+    .getData("https://api.myjson.com/bins/km0lf")
+    .getResponseData("")
     .then(res => {
         return dispatch({
           type: "ACCOUNT_DATA_ALL",

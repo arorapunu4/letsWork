@@ -1,5 +1,6 @@
 import React from 'react';
 import { Table } from 'reactstrap';
+import "./TransactionTable.css";
 
 const RenderRow = (props) =>{
     return props.keys.map((key, index)=>{
@@ -36,7 +37,7 @@ export default class TransactionTable extends React.Component {
         }
   render() {
     return (
-      <Table striped responsive>
+      <Table striped responsive className="tranction-table">
 
  <thead>
  <tr>{this.getHeader()}</tr>

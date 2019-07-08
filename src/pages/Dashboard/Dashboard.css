@@ -1,4 +1,7 @@
 .account-summary .bg-gray-color-container {
     background-color: #f2f2f2;
     width: 100%; }
+    .account-summary .card{
+        margin-bottom: 20px;
+    }
     

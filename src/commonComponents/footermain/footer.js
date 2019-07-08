@@ -27,7 +27,7 @@ class Footer extends Component {
                     <Row>
                       <Col>
                         <p className="copyright">
-                          © 2019 Vanguard Charitable Endowment Program
+                          © 2019 Test Charitable Endowment Program
                         </p>
                       </Col>
                     </Row>

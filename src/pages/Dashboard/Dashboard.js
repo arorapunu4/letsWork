@@ -4,7 +4,6 @@ import { mapStateToProps, mapDispatchToProps } from "./connector";
 import { Helmet } from "react-helmet";
 import { Row } from "reactstrap";
 import "./Dashboard.css";
-//import { getAllAccountSummaryBalanceData } from "../actions/DashboardData";
 import { BalanceCards } from "../../commonComponents/statelessComponents/cardComponent";
 import {
   PageHeading,
@@ -53,10 +52,10 @@ class Dashboard extends Component {
                 <BalanceCards config={BalanceCardsConfiguration} />
               </Row>
               <Row className="Cta-Wrapper">
-                <CTA data={"Transaction Summary"} link={"/page2"} />
-                <CTA data={"Manage your account"} />
-                <CTA data={"Contribution Activity"} />
-                <CTA data={"Exchange Activity"} />
+              <CTA data={"Transaction Summary"} link={"/TransactionSummary"} />
+                <CTA data={"Manage your account"} link={"#"} />
+                <CTA data={"Contribution Activity"} link={"#"} />
+                <CTA data={"Exchange Activity"}  link={"#"} />
               </Row>
               <Row>
                 <MarketingFeature />

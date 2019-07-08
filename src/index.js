@@ -8,7 +8,7 @@ import configureStore from './store';
 import './index.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Dashboard from  "./pages/Dashboard/Dashboard"
-import Dashboard2 from  "./pages/Dashboard2/Dashboard2"
+import TransactionSummary from  "./pages/TransactionSummary/TransactionSummary"
 import HeaderMain from "./commonComponents/headermain/Header";
 import Footer from "./commonComponents/footermain/footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -21,7 +21,7 @@ ReactDOM.render(
         <div>
           <HeaderMain />
           <Switch>
-          <Route  path={"/page2"} component={Dashboard2} />
+          <Route  path={"/TransactionSummary"} component={TransactionSummary} />
             <Route path={"/"} component={Dashboard} />
           
           </Switch>

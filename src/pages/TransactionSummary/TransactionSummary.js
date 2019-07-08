@@ -4,7 +4,7 @@ import { mapStateToProps, mapDispatchToProps } from "./connector";
 import { Helmet } from "react-helmet";
 import { Row } from "reactstrap";
 import { BalanceCards } from "../../commonComponents/statelessComponents/cardComponent";
-import TransactionTable from "../../commonComponents/TransactionTable/TransactionTable"
+import TransactionTable from "../../commonComponents/TransactionTable/TransactionTable";
 import {
   PageHeading,
   CTA
@@ -29,35 +29,24 @@ const BalanceCardsConfiguration = [
     comingSoon: true
   }
 ];
- 
 
-class Dashboard2 extends Component {
+class TransactionSummary extends Component {
   componentDidMount() {
     this.props.getAllAccountSummaryBalanceData();
   }
 
-  render() { 
-if (this.props.TransactionData.IsLoading===true) {
-  return (
-    <div>
-      <div className="loadingContainer">
-        <div />
-        {"loading.."}
-      </div>
-    </div>
-  );
-} else {
-
+  render() {
     return (
       <>
         <Helmet>
-        <title>Transaction Summary Page</title>
+          <title>Transaction Summary Page</title>
           <meta
             name="description"
             content="Lets Do India Transaction Summary Page, here we can see all transaction data"
-          /> </Helmet>
+          />{" "}
+        </Helmet>
 
-  <div className="account-summary">
+        <div className="account-summary">
           <div className="bg-gray-color-container">
             <div className="main-max-width-container">
               <PageHeading data={"Transaction Summary"} />
@@ -66,26 +55,37 @@ if (this.props.TransactionData.IsLoading===true) {
                 <BalanceCards config={BalanceCardsConfiguration} />
               </Row>
               <Row className="Cta-Wrapper">
-                <CTA data={"Transaction Summary"} link={"/page2"} />
-                <CTA data={"Manage your account"} />
-                <CTA data={"Contribution Activity"} />
-                <CTA data={"Exchange Activity"} />
+                <CTA
+                  data={"Transaction Summary"}
+                  link={"/TransactionSummary"}
+                />
+                <CTA data={"Manage your account"} link={"#"} />
+                <CTA data={"Contribution Activity"} link={"#"} />
+                <CTA data={"Exchange Activity"} link={"#"} />
               </Row>
               <Row>
-              <TransactionTable data={this.props.TransactionData.FirstData} />
+                {this.props.TransactionData.IsLoading === true ? (
+                  <div>
+                    <div className="loadingContainer">
+                      <div />
+                      {"loading.."}
+                    </div>
+                  </div>
+                ) : (
+                  <TransactionTable
+                    data={this.props.TransactionData.FirstData}
+                  />
+                )}
               </Row>
-             
             </div>
           </div>
         </div>
-
       </>
-    )
-}
+    );
   }
 }
 
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(Dashboard2);
+)(TransactionSummary);

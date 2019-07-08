@@ -10,7 +10,7 @@ export function BalanceCards(props) {
     
       <div className="current-balance-container">
       <div className="balance-card">
-        <b>Available Balance</b>
+        <b>{obj.heading}</b>
         <span className="tool-tip">
           <img
             src={require("../../assets/images/info.svg")}
@@ -37,12 +37,12 @@ export function BalanceCards(props) {
             href="#"
             className="link-navigator tool-tip"
             tabindex="0"
-            title="View Transaction Summary"
+            title={obj.buttonName}
           >
             <span>
               <span class="tooltiptext">Coming Soon...</span>
-            </span>{" "}
-            <span>VIEW TRANSACTION SUMMARY </span>
+            </span>
+            <span>{obj.buttonName}</span>
             <div className="arrow-animation-blue" />
           </a>
         </p>

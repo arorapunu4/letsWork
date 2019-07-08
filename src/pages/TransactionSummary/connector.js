@@ -1,5 +1,5 @@
 
-import { getAllAccountSummaryBalanceData} from "../../actions/DashboardData"
+import { getAllAccountSummaryBalanceData} from "../../redux/actions/DashboardData"
 
 export const mapStateToProps = state => {
   return {

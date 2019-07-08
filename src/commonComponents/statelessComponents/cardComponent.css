@@ -11,8 +11,14 @@
   letter-spacing: 0.5px;
   text-align: left;
   color: #022737;
+  margin: 20px 0px;
 
 
+}
+.PageHeading +h3{
+  font-size: 24px;
+  color:#505050;
+  margin-bottom: 40px;
 }
 .arrow-animation {
     background-image: url("../../assets/images/white_arrow.png");
@@ -32,17 +38,16 @@
         margin: 40px 0 0 0 !important
     }
 .Cta{
-    display: block;
+    display: flex;
     padding: 21px;
     background: #006778;
     border: 1px solid #006778;
     position: relative;
     text-align: center; 
-    display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-   
-
+    width: 250px;
+  
 }
 .Cta h2{
     color:white;
@@ -97,6 +102,7 @@
   justify-content: center;
   align-items: center;
   padding-right: 20px;
+  text-transform: uppercase;
 }
 .current-balance-container .balance-card:first-child {
   margin-bottom: 20px;
@@ -134,3 +140,28 @@
           margin-left: 5px;
           cursor: pointer;
       }
+      @media only screen  and (max-width: 420px) {
+        html {
+          font-size: 60%; }
+        .Cta-Wrapper a{
+          width: 100%;
+          margin-bottom: 20px;
+        }
+        .Cta{
+          width: 100%;
+        }
+        .carousel-item .d-none{
+          display: inline-block !important;
+        }
+        .marketingFeature .carousel-caption {
+          bottom: 70px;
+      }
+      .PageHeading +h3 {
+        font-size: 16px;
+    }
+    .current-balance-container .balance-card {
+      padding: 26px 26px;
+  }
+
+        
+        }
