@@ -18,12 +18,12 @@ import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
  <Provider store={configureStore()}>
-   <Router>
+   <Router basename="/letsWork">
         <div>
           <HeaderMain />
           <Switch>
-          <Route  path={"letsWork/page2"} component={Dashboard2} />
-            <Route path={"letsWork/"} component={Dashboard} />
+          <Route  path={"/page2"} component={Dashboard2} />
+            <Route path={"/"} component={Dashboard} />
           
           </Switch>
           <Footer />
