@@ -22,8 +22,8 @@ ReactDOM.render(
         <div>
           <HeaderMain />
           <Switch>
-          <Route  path={"/page2"} component={Dashboard2} />
-            <Route path={"/"} component={Dashboard} />
+          <Route  path={"letsWork/page2"} component={Dashboard2} />
+            <Route path={"letsWork/"} component={Dashboard} />
           
           </Switch>
           <Footer />
