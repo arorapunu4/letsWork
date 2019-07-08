@@ -1,29 +1,14 @@
 import React, { Component } from 'react'
 import { connect } from "react-redux";
 import { mapStateToProps, mapDispatchToProps } from "./connector";
-import {Helmet} from 'react-helmet';
 import { Row, Col } from "reactstrap";
 import "./footer.css";
 class Footer extends Component {
-  constructor(props){
-    super(props);
-  }
-  componentDidMount() {
-  }
-  componentWillReceiveProps(nextProps) {
-    this.props = nextProps;
-    console.log(nextProps, "-----nextProps-----");
-  }
   render() { 
-console.log(this.props.newData,"---header--")
     return (
       <>
-        <Helmet>
-    <title>Here's the Title!</title>
-    <meta name="description" content="This is what you want to show as the page content in the Google SERP Listing" />
-  </Helmet>
 
-  <div className="footer">
+  <footer className="footer">
         <Row className="main-max-width-container ">
           <Col>
             <Row className="ContentMiddle">
@@ -141,7 +126,7 @@ console.log(this.props.newData,"---header--")
             </Row>
           </Col>
         </Row>
-      </div>
+      </footer>
 
       </>
     )

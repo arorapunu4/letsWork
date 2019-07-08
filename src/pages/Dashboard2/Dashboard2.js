@@ -32,19 +32,12 @@ const BalanceCardsConfiguration = [
  
 
 class Dashboard2 extends Component {
-  constructor(props){
-    super(props);
-  }
   componentDidMount() {
     this.props.getAllAccountSummaryBalanceData();
   }
-  componentWillReceiveProps(nextProps) {
-    this.props = nextProps;
-    console.log(nextProps.TransactionData, "-----nextProps-----");
-  }
+
   render() { 
-console.log(this.props.TransactionData,"-----")
-if (this.props.TransactionData.IsLoading==true) {
+if (this.props.TransactionData.IsLoading===true) {
   return (
     <div>
       <div className="loadingContainer">

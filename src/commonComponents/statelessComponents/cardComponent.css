@@ -15,7 +15,7 @@
 
 }
 .arrow-animation {
-    background-image: url("/assets/images/white_arrow.png");
+    background-image: url("../../assets/images/white_arrow.png");
     background-repeat: no-repeat;
     width: 17px;
     height: 13px;

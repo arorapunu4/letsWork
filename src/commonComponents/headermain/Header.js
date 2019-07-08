@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from "react-redux";
 import { mapStateToProps, mapDispatchToProps } from "./connector";
-import {Helmet} from 'react-helmet';
 import { Link } from 'react-router-dom'
 
 import {
@@ -25,12 +24,6 @@ class HeaderMain extends Component {
         };
         this.toggle = this.toggle.bind(this);
       }
-  componentDidMount() {
-  }
-  componentWillReceiveProps(nextProps) {
-    this.props = nextProps;
-    console.log(nextProps, "-----nextProps-----");
-  }
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen
@@ -55,14 +48,9 @@ class HeaderMain extends Component {
     });
   };
   render() { 
-console.log(this.props.newData,"---header--")
     return (
       <>
-        <Helmet>
-    <title>Here's the Title!</title>
-    <meta name="description" content="This is what you want to show as the page content in the Google SERP Listing" />
-  </Helmet>
-  <div className="header-fixed">
+  <header className="header-fixed">
         <div className="header-container">
           <div className="main-max-width-container">
             <div className="headerFlex">
@@ -230,7 +218,7 @@ console.log(this.props.newData,"---header--")
             </Navbar>
           </div>
         </div>
-      </div>
+      </header>
     
 
       </>

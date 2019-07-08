@@ -36,7 +36,7 @@ export default class TransactionTable extends React.Component {
         }
   render() {
     return (
-      <Table striped>
+      <Table striped responsive>
 
  <thead>
  <tr>{this.getHeader()}</tr>

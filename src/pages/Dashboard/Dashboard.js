@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { mapStateToProps, mapDispatchToProps } from "./connector";
 import { Helmet } from "react-helmet";
-import { Row, Col } from "reactstrap";
+import { Row } from "reactstrap";
 import "./Dashboard.css";
 //import { getAllAccountSummaryBalanceData } from "../actions/DashboardData";
 import { BalanceCards } from "../../commonComponents/statelessComponents/cardComponent";
@@ -32,20 +32,8 @@ const BalanceCardsConfiguration = [
   }
 ];
 class Dashboard extends Component {
-  constructor(props) {
-    super(props);
-  }
-
-  componentDidMount() {
-
-  }
-  componentWillReceiveProps(nextProps) {
-    this.props = nextProps;
-    console.log(nextProps, "-----nextProps-----");
-  }
 
   render() {
-    console.log(this.props.newData, "-----");
     return (
       <>
         <Helmet>
